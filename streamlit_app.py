@@ -3,7 +3,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-st.markdown(open("style.css").read(), unsafe_allow_html=True)
+#st.markdown(open("style.css").read(), unsafe_allow_html=True)
 # Configure Google Generative AI
 genai.configure(api_key="AIzaSyBzFxnHcrT30nPDNWSJj6xsrbrzQ-wb4Vc")
 
